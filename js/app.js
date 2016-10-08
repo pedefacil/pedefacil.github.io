@@ -7,7 +7,11 @@ $(document).ready(function() {
 	$("#idPesquisar").hide();
 	$("#restaurantes").hide();
 
+	$('.slider').slider({full_width: true});
+
 });
+
+
     
 setInterval(function(){
   $('.carousel').carousel('next');
